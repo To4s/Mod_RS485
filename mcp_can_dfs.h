@@ -213,6 +213,13 @@
 #define MCP_WAKIF       0x40
 #define MCP_MERRF       0x80
 
+// Additional config reg for 12MHz
+
+#define MCP_12MHz_500kBPS_CFG1 (0x40)
+#define MCP_12MHz_500kBPS_CFG2 (0xD9)
+#define MCP_12MHz_500kBPS_CFG3 (0x84)
+
+
 // speed 16M
 
 #define MCP_16MHz_1000kBPS_CFG1 (0x00)
